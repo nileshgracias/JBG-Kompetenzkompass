@@ -1,0 +1,247 @@
+{
+  "version": 2,
+  "title": "Kompetenzkompass",
+  "school": "Joseph Beuys Gesamtschule",
+  "catalogs": {
+    "fach": [
+      {
+        "id": "fach-0",
+        "title": "Access bedienen",
+        "text": "Du kannst mit dem Datenbankprogramm MS Access umgehen.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung beim Umgang mit MS Access",
+          "bedient MS Access mit Unterstützung",
+          "bedient MS Access weitgehend sicher",
+          "bedient MS Access sicher"
+        ]
+      },
+      {
+        "id": "fach-1",
+        "title": "Datenbankelemente unterscheiden",
+        "text": "Du kannst Datenfelder, Datensätze und Dateien unterscheiden.",
+        "phrases": [
+          "benötigt noch Unterstützung beim Unterscheiden von Datenbankelementen",
+          "unterscheidet Datenfelder, Datensätze und Dateien mit Unterstützung",
+          "unterscheidet Datenfelder, Datensätze und Dateien weitgehend sicher",
+          "unterscheidet Datenfelder, Datensätze und Dateien sicher"
+        ]
+      },
+      {
+        "id": "fach-2",
+        "title": "Datentypen anwenden",
+        "text": "Du kannst verschiedene Datentypen unterscheiden und anwenden.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung bei der Anwendung von Datentypen",
+          "wendet Datentypen mit Unterstützung an",
+          "unterscheidet und verwendet Datentypen weitgehend sicher",
+          "unterscheidet und verwendet Datentypen sicher"
+        ]
+      },
+      {
+        "id": "fach-3",
+        "title": "Tabellen und Abfragen erstellen",
+        "text": "Du kannst Tabellen und Abfragen mit Hilfe von Access erstellen.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung beim Erstellen von Tabellen und Abfragen",
+          "erstellt Tabellen und Abfragen mit Unterstützung",
+          "erstellt Tabellen und Abfragen weitgehend sicher",
+          "erstellt Tabellen und Abfragen sicher"
+        ]
+      }
+    ],
+    "sozial": [
+      {
+        "id": "sozial-0",
+        "title": "Pünktlichkeit",
+        "text": "Überfachlicher Kompetenzbereich aus der LEG-Vorlage.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung im Bereich Pünktlichkeit",
+          "zeigt mit Unterstützung Fortschritte im Bereich Pünktlichkeit",
+          "zeigt weitgehend sichere Kompetenzen im Bereich Pünktlichkeit",
+          "zeigt sichere Kompetenzen im Bereich Pünktlichkeit"
+        ]
+      },
+      {
+        "id": "sozial-1",
+        "title": "Material",
+        "text": "Überfachlicher Kompetenzbereich aus der LEG-Vorlage.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung im Bereich Material",
+          "zeigt mit Unterstützung Fortschritte im Bereich Material",
+          "zeigt weitgehend sichere Kompetenzen im Bereich Material",
+          "zeigt sichere Kompetenzen im Bereich Material"
+        ]
+      },
+      {
+        "id": "sozial-2",
+        "title": "Lernbegleiter",
+        "text": "Überfachlicher Kompetenzbereich aus der LEG-Vorlage.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung im Bereich Lernbegleiter",
+          "zeigt mit Unterstützung Fortschritte im Bereich Lernbegleiter",
+          "zeigt weitgehend sichere Kompetenzen im Bereich Lernbegleiter",
+          "zeigt sichere Kompetenzen im Bereich Lernbegleiter"
+        ]
+      },
+      {
+        "id": "sozial-3",
+        "title": "Verhalten Mitschüler / Lehrkräfte",
+        "text": "Überfachlicher Kompetenzbereich aus der LEG-Vorlage.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung im Bereich Verhalten Mitschüler / Lehrkräfte",
+          "zeigt mit Unterstützung Fortschritte im Bereich Verhalten Mitschüler / Lehrkräfte",
+          "zeigt weitgehend sichere Kompetenzen im Bereich Verhalten Mitschüler / Lehrkräfte",
+          "zeigt sichere Kompetenzen im Bereich Verhalten Mitschüler / Lehrkräfte"
+        ]
+      },
+      {
+        "id": "sozial-4",
+        "title": "Rücksichtnahme auf Gefühle",
+        "text": "Überfachlicher Kompetenzbereich aus der LEG-Vorlage.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung im Bereich Rücksichtnahme auf Gefühle",
+          "zeigt mit Unterstützung Fortschritte im Bereich Rücksichtnahme auf Gefühle",
+          "zeigt weitgehend sichere Kompetenzen im Bereich Rücksichtnahme auf Gefühle",
+          "zeigt sichere Kompetenzen im Bereich Rücksichtnahme auf Gefühle"
+        ]
+      },
+      {
+        "id": "sozial-5",
+        "title": "Gruppenarbeit",
+        "text": "Überfachlicher Kompetenzbereich aus der LEG-Vorlage.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung im Bereich Gruppenarbeit",
+          "zeigt mit Unterstützung Fortschritte im Bereich Gruppenarbeit",
+          "zeigt weitgehend sichere Kompetenzen im Bereich Gruppenarbeit",
+          "zeigt sichere Kompetenzen im Bereich Gruppenarbeit"
+        ]
+      },
+      {
+        "id": "sozial-6",
+        "title": "Gruppenaufgaben und Präsentation",
+        "text": "Überfachlicher Kompetenzbereich aus der LEG-Vorlage.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung im Bereich Gruppenaufgaben und Präsentation",
+          "zeigt mit Unterstützung Fortschritte im Bereich Gruppenaufgaben und Präsentation",
+          "zeigt weitgehend sichere Kompetenzen im Bereich Gruppenaufgaben und Präsentation",
+          "zeigt sichere Kompetenzen im Bereich Gruppenaufgaben und Präsentation"
+        ]
+      },
+      {
+        "id": "sozial-7",
+        "title": "Regeln",
+        "text": "Überfachlicher Kompetenzbereich aus der LEG-Vorlage.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung im Bereich Regeln",
+          "zeigt mit Unterstützung Fortschritte im Bereich Regeln",
+          "zeigt weitgehend sichere Kompetenzen im Bereich Regeln",
+          "zeigt sichere Kompetenzen im Bereich Regeln"
+        ]
+      },
+      {
+        "id": "sozial-8",
+        "title": "Konflikte",
+        "text": "Überfachlicher Kompetenzbereich aus der LEG-Vorlage.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung im Bereich Konflikte",
+          "zeigt mit Unterstützung Fortschritte im Bereich Konflikte",
+          "zeigt weitgehend sichere Kompetenzen im Bereich Konflikte",
+          "zeigt sichere Kompetenzen im Bereich Konflikte"
+        ]
+      },
+      {
+        "id": "sozial-9",
+        "title": "Selbstständigkeit",
+        "text": "Überfachlicher Kompetenzbereich aus der LEG-Vorlage.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung im Bereich Selbstständigkeit",
+          "zeigt mit Unterstützung Fortschritte im Bereich Selbstständigkeit",
+          "zeigt weitgehend sichere Kompetenzen im Bereich Selbstständigkeit",
+          "zeigt sichere Kompetenzen im Bereich Selbstständigkeit"
+        ]
+      },
+      {
+        "id": "sozial-10",
+        "title": "Aufgaben eigenständig",
+        "text": "Überfachlicher Kompetenzbereich aus der LEG-Vorlage.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung im Bereich Aufgaben eigenständig",
+          "zeigt mit Unterstützung Fortschritte im Bereich Aufgaben eigenständig",
+          "zeigt weitgehend sichere Kompetenzen im Bereich Aufgaben eigenständig",
+          "zeigt sichere Kompetenzen im Bereich Aufgaben eigenständig"
+        ]
+      },
+      {
+        "id": "sozial-11",
+        "title": "Probleme",
+        "text": "Überfachlicher Kompetenzbereich aus der LEG-Vorlage.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung im Bereich Probleme",
+          "zeigt mit Unterstützung Fortschritte im Bereich Probleme",
+          "zeigt weitgehend sichere Kompetenzen im Bereich Probleme",
+          "zeigt sichere Kompetenzen im Bereich Probleme"
+        ]
+      },
+      {
+        "id": "sozial-12",
+        "title": "Lernzeit",
+        "text": "Überfachlicher Kompetenzbereich aus der LEG-Vorlage.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung im Bereich Lernzeit",
+          "zeigt mit Unterstützung Fortschritte im Bereich Lernzeit",
+          "zeigt weitgehend sichere Kompetenzen im Bereich Lernzeit",
+          "zeigt sichere Kompetenzen im Bereich Lernzeit"
+        ]
+      },
+      {
+        "id": "sozial-13",
+        "title": "Quartalsziel",
+        "text": "Überfachlicher Kompetenzbereich aus der LEG-Vorlage.",
+        "phrases": [
+          "benötigt noch intensive Unterstützung im Bereich Quartalsziel",
+          "zeigt mit Unterstützung Fortschritte im Bereich Quartalsziel",
+          "zeigt weitgehend sichere Kompetenzen im Bereich Quartalsziel",
+          "zeigt sichere Kompetenzen im Bereich Quartalsziel"
+        ]
+      }
+    ]
+  },
+  "profiles": [
+    {
+      "name": "Alex Sommer",
+      "need": "Sprachlicher Unterstützungsbedarf (fiktiv)",
+      "support": "Kurze Arbeitsaufträge, Visualisierung und zusätzliche Antwortzeit.",
+      "strengths": "Kreative Lösungswege, hilfsbereit"
+    },
+    {
+      "name": "Sam Winter",
+      "need": "Lese-Rechtschreib-Schwierigkeiten (fiktiv)",
+      "support": "Vorlesefunktion und klar gegliederte Texte anbieten.",
+      "strengths": "Ausdauernd, stark bei praktischen Aufgaben"
+    },
+    {
+      "name": "Kim Berger",
+      "need": "Keine besonderen Bedarfe dokumentiert",
+      "support": "Bei komplexen Aufgaben Zwischenziele vereinbaren.",
+      "strengths": "Strukturiert, zuverlässig"
+    },
+    {
+      "name": "Robin Fischer",
+      "need": "Aufmerksamkeit und Selbstorganisation (fiktiv)",
+      "support": "Ruhiger Arbeitsplatz, kurze Arbeitsphasen und Checkliste.",
+      "strengths": "Neugierig, mündlich engagiert"
+    },
+    {
+      "name": "Toni Weber",
+      "need": "Sprachentwicklungsstörung (fiktives Beispiel)",
+      "support": "Verständnis sichern, Begriffe visualisieren, Zeit zum Formulieren geben.",
+      "strengths": "Analytisch, teamorientiert"
+    },
+    {
+      "name": "Jules Neumann",
+      "need": "Unsicherheit bei Präsentationen (fiktiv)",
+      "support": "Präsentation in kleiner Gruppe vorbereiten.",
+      "strengths": "Sorgfältig, gute schriftliche Beiträge"
+    }
+  ]
+}
