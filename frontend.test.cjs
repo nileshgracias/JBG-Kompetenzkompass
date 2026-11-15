@@ -1,0 +1,7 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const script=fs.readFileSync('app.js','utf8').replace(/init\(\)\.catch\([\s\S]*$/,'');const cfg=JSON.parse(fs.readFileSync('config.json'));
+const context={document:{getElementById:()=>({}),querySelector:()=>({})},window:{addEventListener(){}},localStorage:{getItem:()=>null},structuredClone,console,setTimeout,clearTimeout};vm.createContext(context);vm.runInContext(script,context);context.testCfg=cfg;vm.runInContext("cfg=testCfg;state.cls='8a';state.subject='wp';state.student='0';",context);
+let count=vm.runInContext("['8a','8b'].reduce((total,cls)=>{state.cls=cls;return total+cfg.profiles.reduce((sum,p,n)=>sum+['fach','sozial'].reduce((s,a)=>s+cfg.catalogs[a].reduce((k,c)=>k+years.slice(0,3).reduce((m,y)=>m+[1,2,3,4].filter(q=>{const v=value(c.id,String(q),y,a,String(n));if(!Number.isInteger(v)||v<0||v>3)throw Error('invalid seed');return true}).length,0),0),0),0)},0)",context);assert.equal(count,2592);
+vm.runInContext("state.area='fach';chartId='fach-0'",context);const chart=vm.runInContext('historyView()',context);const ys=[...chart.matchAll(/<circle cx="[^"]+" cy="([^"]+)"/g)].map(m=>Number(m[1]));assert.equal(ys.length,12);assert(ys.every(y=>Number.isFinite(y)&&y>=61&&y<=235));assert(chart.includes('2023/24'));
+assert.equal(vm.runInContext("seed('custom-new','2024/25',1,'0')",context),null);
+console.log('PASS: 2592 historical ratings, 12 numeric chart coordinates, new competencies remain unassessed.');
