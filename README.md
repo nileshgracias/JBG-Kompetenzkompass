@@ -1,4 +1,33 @@
-# JBG Kompetenzkompass
+# JBG Kompetenzkompass · Demo Version 3
+
+Öffentliche Demo: https://nileshgracias.github.io/JBG-Kompetenzkompass/
+
+## Neu in Version 3
+
+- Fach/Kurs → Klasse oder „Alle Klassen des Kurses“ → Schüler/in.
+- Eigene Schülerkachel unter der gesamten Auswahl, danach Schuljahr und Quartal.
+- Freigabestatus sowie Korrekturantrag, Prüfung und begründeter Nachtrag; Original und ältere Nachträge bleiben innerhalb des Demoablaufs erhalten.
+- Gesamtansicht aller Fachkompetenzen oder überfachlichen Kompetenzen, Einzelansicht, ausblendbare Linien und Detailanzeigen. Die bisherige Tabelle bleibt erhalten.
+
+## Wichtige Unterscheidung
+
+**GitHub Pages:** `static-demo.js` simuliert die API lokal im Browser. Rollen, Freigaben und Korrekturen sind ausschließlich eine Funktionsdemonstration. Es gibt keine serverseitige Sperre, keine persönliche Anmeldung und kein revisionssicheres Archiv. Browserdaten lassen sich verändern oder löschen. Keine echten Schülerdaten eingeben.
+
+**Lokale Servervorschau:** `npm run dev` startet `preview-server.mjs`. Hier prüft der Server die Demo-Sitzung und Rolle; `ledger.mjs` schützt freigegebene Momentaufnahmen vor normalen Schreiboperationen und führt Korrekturen nur als Nachtrag aus. Auch hier sind die frei wählbaren Rollen keine schulischen Konten. Details und ausgeführte Tests stehen in [VORSCHAU.md](VORSCHAU.md).
+
+Die bereits bestehende private Sites-Instanz wurde bei diesem GitHub-Update nicht verändert und zeigt weiterhin ihren bisherigen Stand. `build-host.mjs` gehört zum alten Version-2-Worker und ist kein Deploymentweg für Version 3.
+
+## Technischer Aufbau
+
+Die öffentliche App benötigt keinen Build: `index.html`, `app.js`, `workflow-ui.js`, `static-demo.js`, `ledger.mjs`, `backend.mjs`, `config.json` und die Bilddateien werden direkt von GitHub Pages ausgeliefert. Es werden keine Serverdaten, Sitzungscookies oder Zugangsdaten ins Repository geschrieben.
+
+Die lokale Demo speichert neue Datensätze unter `jbg-public-ledger-v3` und die Konfiguration unter `jbg-public-config-v3`; die vorigen Demo-Schlüssel bleiben unangetastet. Es gibt keine automatische Übertragung zur privaten Serverversion.
+
+## Prüfungen
+
+`npm test` prüft Freigaben, Rollen, Anträge, Nachträge, Originalerhalt, Versionskonflikte und die bestehende Konfigurations-API. Der statische GitHub-Modus wurde im Browser mit neuer Auswahl, vier Diagrammlinien, lokalem Speichern, Freigabe und gesperrten Eingabefeldern geprüft.
+
+## Dokumentation des bisherigen Stands (Version 2)
 
 Browserdemo für die Kompetenzdokumentation mit ausschließlich fiktiven Daten.
 
